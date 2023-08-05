@@ -257,8 +257,10 @@ RESPONSIVE IMAGE
 BREAKPOINTS
 =============================
 */
-  @media(min-width:576px){
+  
+@media(min-width:576px){
     .container{
+        position:fixed;
         height:900px;
         width:1440px;
         overflow:hidden;
@@ -272,7 +274,7 @@ BREAKPOINTS
                "alias-innergrid ";
     }
     .inner-grid{
-        grid-template-rows: 550px 130px;
+        grid-template-rows: 500px 130px;
         grid-template-areas: 
         "alias-main alias-main alias-aside"
         "alias-section1 alias-section2 alias-section3";
@@ -317,7 +319,7 @@ BREAKPOINTS
         margin-top: 20px;
     }
     article h1{
-        font-size:2.6rem;
+        font-size:2rem;
       flex-basis:40% ;
       margin-left: 20px;
     }
@@ -326,7 +328,7 @@ BREAKPOINTS
       padding-top: 10px;
     }
     .article button{
-        margin-top: 20px;
+        margin-top: 0;
         margin-bottom: 0;
       }
     aside{
@@ -352,7 +354,7 @@ BREAKPOINTS
       }
       #sections{
         margin-right: 20px;
-       margin-top: 40px;
+       margin-top: 70px;
     }
     #sections img{
         flex-basis: 30%;
@@ -387,6 +389,4 @@ BREAKPOINTS
     }
     
     
-}    
-    
-
+}
