@@ -257,7 +257,7 @@ RESPONSIVE IMAGE
 BREAKPOINTS
 =============================
 */
- @media(min-width:576px){
+  @media(min-width:576px){
     .container{
         height:900px;
         width:1440px;
@@ -267,12 +267,12 @@ BREAKPOINTS
     .outer-grid{
         height:90%;
         width:80%;
-        grid-template-rows: 100px 1fr; 
+        grid-template-rows: 80px 1fr; 
         grid-template-areas: "alias-header"
                "alias-innergrid ";
     }
     .inner-grid{
-        grid-template-rows: 1fr 130px;
+        grid-template-rows: 550px 130px;
         grid-template-areas: 
         "alias-main alias-main alias-aside"
         "alias-section1 alias-section2 alias-section3";
@@ -317,11 +317,12 @@ BREAKPOINTS
         margin-top: 20px;
     }
     article h1{
-        font-size:2.5rem;
+        font-size:2.6rem;
       flex-basis:40% ;
+      margin-left: 20px;
     }
     .article-flex-items{
-      flex-basis: 50%;
+      flex-basis: 60%;
       padding-top: 10px;
     }
     .article button{
@@ -332,11 +333,12 @@ BREAKPOINTS
         grid-area: alias-aside;
         margin-left: 20px; 
         padding:8%;
+       margin-bottom: auto;
     }
     aside h2{
         font-size: 2rem;
         margin-top: 15px;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
     aside h4{
         font-size: 1rem;
@@ -344,13 +346,13 @@ BREAKPOINTS
       aside p{
           
           font-size: 0.7rem;
-          padding-bottom: 25px;
-          margin-bottom: 25px;
-          line-height: 1.3;
+          padding-bottom: 35px;
+          margin-bottom: 35px;
+          line-height: 2;
       }
       #sections{
         margin-right: 20px;
-        justify-content: flex-start;
+       margin-top: 40px;
     }
     #sections img{
         flex-basis: 30%;
@@ -385,7 +387,6 @@ BREAKPOINTS
     }
     
     
-} 
- 
+}    
     
 
